@@ -12,13 +12,22 @@ const Topo = () => (
 )
 
 const styles = StyleSheet.create({
-topoContainer: {
-    	backgroundColor: '#fff',
-    	marginTop: 20,
-    	padding: 20,
+  topoContainer: {
+    backgroundColor: '#fff',
+    marginTop: 24,
+    marginBottom: 20,
+    shadowColor: '#DA6C6C',
+    shadowRadius: 5,
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 100
   },
-topoTitle: {
-    	textAlign: 'center'
+
+  topoTitle: {
+    textAlign: 'center',
+    fontSize: 18,
+    color: '#333333',
+    padding: 20,
+    fontWeight: 'bold'
   }
 })
 
