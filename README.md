@@ -5,7 +5,7 @@
 To clone the app, run:
 
 ```git
-git clone https://github.com/EdsonLucas/gn-1model.git
+git clone https://github.com/EdsonLucas/gn1chall.git
 ```
 
 It will create a directory called `gn1chall` inside the current folder.
